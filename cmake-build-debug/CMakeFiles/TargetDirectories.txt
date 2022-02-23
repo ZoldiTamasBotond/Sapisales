@@ -1,0 +1,3 @@
+D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir
+D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/rebuild_cache.dir
