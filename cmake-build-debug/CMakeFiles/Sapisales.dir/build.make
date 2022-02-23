@@ -65,32 +65,122 @@ include CMakeFiles/Sapisales.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sapisales.dir/flags.make
 
-CMakeFiles/Sapisales.dir/main.c.obj: CMakeFiles/Sapisales.dir/flags.make
-CMakeFiles/Sapisales.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Sapisales.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\main.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\main.c"
+CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj: ../sapi_sales/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\sapi_sales\src\main.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\main.c"
 
-CMakeFiles/Sapisales.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\main.c" > CMakeFiles\Sapisales.dir\main.c.i
+CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\main.c" > CMakeFiles\Sapisales.dir\sapi_sales\src\main.c.i
 
-CMakeFiles/Sapisales.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\main.c" -o CMakeFiles\Sapisales.dir\main.c.s
+CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\main.c" -o CMakeFiles\Sapisales.dir\sapi_sales\src\main.c.s
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj: ../sapi_sales/src/manager/lab2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab2.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab2.c"
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab2.c" > CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab2.c.i
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab2.c" -o CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab2.c.s
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj: ../sapi_sales/src/manager/lab_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab_manager.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab_manager.c"
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab_manager.c" > CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab_manager.c.i
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\manager\lab_manager.c" -o CMakeFiles\Sapisales.dir\sapi_sales\src\manager\lab_manager.c.s
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj: ../sapi_sales/src/models/product.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\sapi_sales\src\models\product.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\product.c"
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\product.c" > CMakeFiles\Sapisales.dir\sapi_sales\src\models\product.c.i
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\product.c" -o CMakeFiles\Sapisales.dir\sapi_sales\src\models\product.c.s
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj: ../sapi_sales/src/models/user.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\sapi_sales\src\models\user.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\user.c"
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\user.c" > CMakeFiles\Sapisales.dir\sapi_sales\src\models\user.c.i
+
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\sapi_sales\src\models\user.c" -o CMakeFiles\Sapisales.dir\sapi_sales\src\models\user.c.s
+
+CMakeFiles/Sapisales.dir/shared/src/errors.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/shared/src/errors.c.obj: ../shared/src/errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Sapisales.dir/shared/src/errors.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\shared\src\errors.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\errors.c"
+
+CMakeFiles/Sapisales.dir/shared/src/errors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/shared/src/errors.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\errors.c" > CMakeFiles\Sapisales.dir\shared\src\errors.c.i
+
+CMakeFiles/Sapisales.dir/shared/src/errors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/shared/src/errors.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\errors.c" -o CMakeFiles\Sapisales.dir\shared\src\errors.c.s
+
+CMakeFiles/Sapisales.dir/shared/src/messages.c.obj: CMakeFiles/Sapisales.dir/flags.make
+CMakeFiles/Sapisales.dir/shared/src/messages.c.obj: ../shared/src/messages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Sapisales.dir/shared/src/messages.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Sapisales.dir\shared\src\messages.c.obj -c "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\messages.c"
+
+CMakeFiles/Sapisales.dir/shared/src/messages.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sapisales.dir/shared/src/messages.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\messages.c" > CMakeFiles\Sapisales.dir\shared\src\messages.c.i
+
+CMakeFiles/Sapisales.dir/shared/src/messages.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sapisales.dir/shared/src/messages.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\shared\src\messages.c" -o CMakeFiles\Sapisales.dir\shared\src\messages.c.s
 
 # Object files for target Sapisales
 Sapisales_OBJECTS = \
-"CMakeFiles/Sapisales.dir/main.c.obj"
+"CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj" \
+"CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj" \
+"CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj" \
+"CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj" \
+"CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj" \
+"CMakeFiles/Sapisales.dir/shared/src/errors.c.obj" \
+"CMakeFiles/Sapisales.dir/shared/src/messages.c.obj"
 
 # External object files for target Sapisales
 Sapisales_EXTERNAL_OBJECTS =
 
-Sapisales.exe: CMakeFiles/Sapisales.dir/main.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/shared/src/errors.c.obj
+Sapisales.exe: CMakeFiles/Sapisales.dir/shared/src/messages.c.obj
 Sapisales.exe: CMakeFiles/Sapisales.dir/build.make
 Sapisales.exe: CMakeFiles/Sapisales.dir/linklibs.rsp
 Sapisales.exe: CMakeFiles/Sapisales.dir/objects1.rsp
 Sapisales.exe: CMakeFiles/Sapisales.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Sapisales.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Sapisales.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sapisales.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

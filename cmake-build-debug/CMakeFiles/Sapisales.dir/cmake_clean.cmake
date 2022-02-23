@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sapisales.dir/main.c.obj"
+  "CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj"
+  "CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj"
+  "CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj"
+  "CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj"
+  "CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj"
+  "CMakeFiles/Sapisales.dir/shared/src/errors.c.obj"
+  "CMakeFiles/Sapisales.dir/shared/src/messages.c.obj"
   "Sapisales.exe"
   "Sapisales.exe.manifest"
   "Sapisales.pdb"

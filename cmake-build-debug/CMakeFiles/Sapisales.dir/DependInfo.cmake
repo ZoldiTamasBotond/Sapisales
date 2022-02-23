@@ -8,7 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/main.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/main.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/src/main.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/src/manager/lab2.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/src/manager/lab_manager.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/src/models/product.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/sapi_sales/src/models/product.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/src/models/user.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/shared/src/errors.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/shared/src/errors.c.obj"
+  "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/shared/src/messages.c" "D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug/CMakeFiles/Sapisales.dir/shared/src/messages.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
