@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/headers/manager"/>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/headers/models"/>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
@@ -42,6 +45,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/headers/manager"/>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/sapi_sales/headers/models"/>
+					<Add directory="D:/C programok/Sapientia/Adatszerkezetek/Sapisales/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
