@@ -23,12 +23,13 @@ void createProduct(Product** product){
     *product= malloc(sizeof (product));
 
 }
-void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount){
+void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount,double  price){
     strcpy(product->id,id);
     strcpy(product->name,name);
     product->type = type;
     product->amount = amount;
     product->creationDate = time(NULL);
+    product->price= price;
 }
 
 void printProduct(Product* product){

@@ -20,6 +20,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../sapi_sales/headers/manager"
+  "../sapi_sales/headers/models"
+  "../shared/headers"
   )
 
 # The set of dependency files which are needed:

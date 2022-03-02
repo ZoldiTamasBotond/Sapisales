@@ -27,6 +27,7 @@ typedef struct {
     char name[20];
     enum ProductType type;
     unsigned int amount;
+    double price;
     time_t creationDate;
 }Product;
 
@@ -38,7 +39,8 @@ void setProductData(
         char id[10],
         char name[20],
         enum ProductType type,
-                unsigned int amount);
+                unsigned int amount,
+                double price);
 
 void printProduct(Product* product);
 
