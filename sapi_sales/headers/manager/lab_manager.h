@@ -9,5 +9,6 @@
 #include "lab2.h"
 
 void lab2();
+void lab3();
 
 #endif //SAPISALES_LAB_MANAGER_H

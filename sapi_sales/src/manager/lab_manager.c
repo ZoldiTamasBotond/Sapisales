@@ -6,6 +6,10 @@
 
 void lab2(){
     printDescriptionMessage(LAB2);
-    //testUserFunctionalities();
+    testUserFunctionalities();
     testProductFunctionalities();
+}
+void lab3(){
+    printDescriptionMessage(LAB3);
+
 }
