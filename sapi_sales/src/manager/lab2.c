@@ -41,10 +41,8 @@ void testProductFunctionalities(){
     createProduct(&product3);
     setProductData(product3,"MS3","Tomato",GROCERY,20,8.4);
 
-
     printProduct(product1);
-    /*
-    printProduct(product2);
-    printProduct(product3);
-     */
+    printProduct(product2);printProduct(product3);
+
+
 }

@@ -20,16 +20,17 @@ char* getProductType(enum ProductType type){
 }
 
 void createProduct(Product** product){
-    *product = malloc(sizeof (Product));
+    *product = (Product*)malloc(sizeof (Product));
 
 }
 void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount,double  price){
-    strcpy(product->id,id);
-    strcpy(product->name,name);
-    product->type = type;
+  strcpy(product->id,id);
+  strcpy(product->name,name);
+ product->type = type;
     product->amount = amount;
-    product->creationDate = time(NULL);
+  product->creationDate = time(NULL);
     product->price= price;
+
 }
 
 void printProduct(Product* product){

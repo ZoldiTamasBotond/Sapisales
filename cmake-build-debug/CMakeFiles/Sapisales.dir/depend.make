@@ -11,13 +11,21 @@ CMakeFiles/Sapisales.dir/sapi_sales/src/main.c.obj: \
  ../shared/headers/useful.h \
  ../sapi_sales/src/main.c
 CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab2.c.obj: \
+ ../sapi_sales/headers/manager/lab2.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
  ../shared/headers/errors.h \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
- ../sapi_sales/headers/manager/lab2.h \
  ../sapi_sales/src/manager/lab2.c
+CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab3.c.obj: \
+ ../sapi_sales/headers/manager/lab3.h \
+ ../sapi_sales/headers/models/product.h \
+ ../sapi_sales/headers/models/user.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/manager/lab3.c
 CMakeFiles/Sapisales.dir/sapi_sales/src/manager/lab_manager.c.obj: \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
@@ -39,6 +47,13 @@ CMakeFiles/Sapisales.dir/sapi_sales/src/models/user.c.obj: \
  ../shared/headers/useful.h \
  ../sapi_sales/headers/models/user.h \
  ../sapi_sales/src/models/user.c
+CMakeFiles/Sapisales.dir/sapi_sales/src/models/user_array.c.obj: \
+ ../sapi_sales/headers/models/user.h \
+ ../sapi_sales/headers/models/user_array.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/models/user_array.c
 CMakeFiles/Sapisales.dir/shared/src/errors.c.obj: \
  ../shared/headers/errors.h \
  ../shared/src/errors.c

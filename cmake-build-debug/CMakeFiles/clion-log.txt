@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\C programok\Sapientia\Adatszerkezetek\Sapisales"
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales"
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/C programok/Sapientia/Adatszerkezetek/Sapisales/cmake-build-debug
+-- Build files have been written to: D:/C programok/Sapientia/Adatszerkezetek/DSASapisales/cmake-build-debug

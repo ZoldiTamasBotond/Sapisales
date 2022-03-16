@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C programok\Sapientia\Adatszerkezetek\Sapisales"
+CMAKE_SOURCE_DIR = "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales\cmake-build-debug\CMakeFiles" "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C programok\Sapientia\Adatszerkezetek\Sapisales\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C programok\Sapientia\Adatszerkezetek\DSASapisales\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -296,6 +296,30 @@ sapi_sales/src/models/user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sapisales.dir\build.make CMakeFiles/Sapisales.dir/sapi_sales/src/models/user_array.c.s
 .PHONY : sapi_sales/src/models/user_array.c.s
 
+sapi_sales/src/stack/product_stack.obj: sapi_sales/src/stack/product_stack.c.obj
+.PHONY : sapi_sales/src/stack/product_stack.obj
+
+# target to build an object file
+sapi_sales/src/stack/product_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sapisales.dir\build.make CMakeFiles/Sapisales.dir/sapi_sales/src/stack/product_stack.c.obj
+.PHONY : sapi_sales/src/stack/product_stack.c.obj
+
+sapi_sales/src/stack/product_stack.i: sapi_sales/src/stack/product_stack.c.i
+.PHONY : sapi_sales/src/stack/product_stack.i
+
+# target to preprocess a source file
+sapi_sales/src/stack/product_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sapisales.dir\build.make CMakeFiles/Sapisales.dir/sapi_sales/src/stack/product_stack.c.i
+.PHONY : sapi_sales/src/stack/product_stack.c.i
+
+sapi_sales/src/stack/product_stack.s: sapi_sales/src/stack/product_stack.c.s
+.PHONY : sapi_sales/src/stack/product_stack.s
+
+# target to generate assembly for a file
+sapi_sales/src/stack/product_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sapisales.dir\build.make CMakeFiles/Sapisales.dir/sapi_sales/src/stack/product_stack.c.s
+.PHONY : sapi_sales/src/stack/product_stack.c.s
+
 shared/src/errors.obj: shared/src/errors.c.obj
 .PHONY : shared/src/errors.obj
 
@@ -374,6 +398,9 @@ help:
 	@echo ... sapi_sales/src/models/user_array.obj
 	@echo ... sapi_sales/src/models/user_array.i
 	@echo ... sapi_sales/src/models/user_array.s
+	@echo ... sapi_sales/src/stack/product_stack.obj
+	@echo ... sapi_sales/src/stack/product_stack.i
+	@echo ... sapi_sales/src/stack/product_stack.s
 	@echo ... shared/src/errors.obj
 	@echo ... shared/src/errors.i
 	@echo ... shared/src/errors.s
